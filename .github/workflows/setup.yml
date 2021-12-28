@@ -33,10 +33,10 @@ jobs:
           
       - name: Unit Test
         run: |
-          pytest -v src
+          pytest -v tests
       
       - name: Code Style
         run: |
-          flake8 . --select BLK --extend-exclude-dist,build --show-source --statistics
+          flake8 . --select BLK --extend-exclude=dist,build --show-source --statistics
 
 
