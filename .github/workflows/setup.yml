@@ -33,7 +33,7 @@ jobs:
           
       - name: Unit Test
         run: |
-          pytest -v src
+          pytest -v tests
       
       - name: Code Style
         run: |
