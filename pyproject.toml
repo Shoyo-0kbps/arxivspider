@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "arxivspider"
+name = "getpapers"
 version = "0.1.0"
 description = ""
 authors = ["Shoyo-0kbps <mizzaelsantos1@gmail.com>"]

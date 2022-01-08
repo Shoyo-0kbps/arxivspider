@@ -1,6 +1,6 @@
 import scrapy
 from scrapy.loader import ItemLoader
-from arxivspider.spiders.items import ArxivscraperItem
+from getpapers.spiders.items import ArxivscraperItem
 
 
 class ArxivSpider(scrapy.Spider):
