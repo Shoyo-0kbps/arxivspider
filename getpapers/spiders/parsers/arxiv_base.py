@@ -2,7 +2,6 @@ import scrapy
 from scrapy.loader import ItemLoader
 from getpapers.spiders.items import ArxivscraperItem
 
-
 class ArxivSpider(scrapy.Spider):
     name = "arxiv_base"
 
