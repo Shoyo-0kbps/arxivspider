@@ -88,4 +88,3 @@ class PathHandler(abc.ABC):
             raise FileNotFoundError(f"{content_name} not found in {self._path}")
         else:
             self._del_content(content_name)
-
